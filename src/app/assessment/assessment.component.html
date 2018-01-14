@@ -1,13 +1,22 @@
-<div class="row">
-  <div class="col-xs-12">
-    <a
-    href="#"
-    class="list-group-item clearfix"
-    *ngFor="let assessmentItem of assessmentItems">
-    <div class="pull-left">
-      <h4 class="list-group-item-heading">{{ assessmentItem.name }}</h4>
-      <p class="list-group-item-text">{{ assessmentItem.description }}</p>
-    </div>
-    </a>
-  </div>
+<alert type="success">hello</alert>
+
+<div class="btn-group" dropdown="">
+  <button dropdownToggle="" type="button" class="btn btn-primary dropdown-toggle">
+    Button dropdown <span class="caret"></span>
+  </button>
+  <ul *dropdownMenu="" class="dropdown-menu" role="menu">
+    <li role="menuitem">
+      <a class="dropdown-item" href="#">Action</a>
+    </li>
+    <li role="menuitem">
+      <a class="dropdown-item" href="#">Another action</a>
+    </li>
+    <li role="menuitem">
+      <a class="dropdown-item" href="#">Something else here</a>
+    </li>
+    <li class="divider dropdown-divider"></li>
+    <li role="menuitem">
+      <a class="dropdown-item" href="#">Separated link</a>
+    </li>
+  </ul>
 </div>

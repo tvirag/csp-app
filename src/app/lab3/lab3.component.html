@@ -1,0 +1,8 @@
+Lab3
+
+<pre class="card card-block card-header">Model: {{groupSelected | json}}</pre>
+<input [(ngModel)]="groupSelected"
+       [typeahead]="csp"
+       typeaheadOptionField="title"
+       typeaheadGroupField="region"
+       class="form-control">

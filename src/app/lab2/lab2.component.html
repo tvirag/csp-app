@@ -1,0 +1,15 @@
+<!--
+<pre>
+  {{ csp | json }}
+</pre>
+Lab 2 Title: {{ csp[0].title }}
+-->
+
+Lab2
+
+<pre class="card card-block card-header">Model: {{groupSelected | json}}</pre>
+<input [(ngModel)]="groupSelected"
+       [typeahead]="statesComplex"
+       typeaheadOptionField="name"
+       typeaheadGroupField="region"
+       class="form-control">

@@ -1,0 +1,23 @@
+{
+  "csp": [
+      {"id":  1, "title": "Pulse", "region": "Anatomy", "description": "Anatomical description of pulse"},
+      {"id":  2, "title": "Radial pulse", "region": "Anatomy", "description": "Anatomical description of radial pulse"},
+      {"id":  3, "title": "Femoral pulse", "region": "Anatomy", "description": "Anatomical description of femoral pulse"},
+
+      {"id":  4, "title": "Primary assessment", "region": "Assessment", "description": "Measure pulse during primary assessment"},
+      {"id":  5, "title": "Secondary assessment", "region": "Assessment", "description": "Measure pulse during secondary assessment"},
+
+      {"id":  6, "title": "High pulse rate", "region": "Signs & Symptomes", "description": "What is hight pulse rate"},
+      {"id":  7, "title": "Low pulse rate", "region": "Signs & Symptomes", "description": "What is low pulse rate"},
+
+      {"id":  8, "title": "How to locate pulse", "region": "Procedures", "description": "How to locte pulse on adults and children"},
+      {"id":  9, "title": "How to measure pulse rate", "region": "Procedures", "description": "How to measure pulse rate"},
+
+      {"id": 10, "title": "Sinus tachycardia", "region": "Conditions", "description": "What sinus tachycardia means - high pulse rate"},
+      {"id": 11, "title": "Adrenalin induced tachycardia", "region": "Conditions", "description": "Adrenalin induced tachycardia - high pulse rate"},
+      {"id": 12, "title": "Age induced tachycardia", "region": "Conditions", "description": "Age and high pulse rate"},
+      {"id": 13, "title": "Dehidration induced tachycardia", "region": "Conditions", "description": "Dehdration induced tachycardia - high pulse rate"},
+
+      {"id": 14, "title": "Pulse Oximeter", "region": "Tools", "description": "Measuring pulse by Pulse Oximeter"}
+    ]
+}
